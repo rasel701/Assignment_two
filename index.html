@@ -13,50 +13,108 @@
       referrerpolicy="no-referrer"
     />
     <!-- tailwind css style -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
     <!-- row css -->
     <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body class="bg-[#F5F8FF]">
-    <header class="screen-width">
-      <nav class="nav flex justify-between h-[71px] items-center">
+  <body>
+    <header class="header">
+      <nav class="nav inter-font">
         <img src="./assets/logo.png" alt="logo" />
-        <ul class="flex gap-12 inter-font">
-          <li>
-            <a href="#" class="text-[1rem] font-bold theme-dark-color">Home</a>
+        <ul class="">
+          <li class="display">
+            <a href="#" class="theme-dark-color">Home</a>
           </li>
-          <li><a href="#" class="theme-primary-color">Shop</a></li>
-          <li><a href="#" class="theme-primary-color">About us</a></li>
+          <li class="display">
+            <a href="#" class="theme-primary-color">Shop</a>
+          </li>
+          <li class="display">
+            <a href="#" class="theme-primary-color">About us</a>
+          </li>
           <li>
-            <a href="" class="flex justify-center items-center gap-2"
-              ><i class="fa-solid fa-cart-shopping text-[1.3rem]"></i>
-              <p>Cart($0)</p></a
+            <a href="" class=""
+              ><i class="fa-solid fa-cart-shopping"></i> Cart($0)</a
             >
           </li>
         </ul>
       </nav>
     </header>
 
-    <section class="hero-section screen-width flex">
-      <div class="hero-text flex-1/2">
-        <h1 class="hero-title">
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1 class="hero-title noto-serif-font">
           ALWAYS
-          <span class="hero-span theme-common-color noto-serif-font"
-            >FRESIH FLOWERS</span
-          >
+          <span class="hero-span theme-common-color">FRESIH FLOWERS</span>
         </h1>
-        <p class="text-2xl theme-primary-color inter-font font-normal">
+        <p class="hero-description theme-primary-color inter-font font-normal">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh flowers that are perfect for any occasion.
         </p>
       </div>
-      <div class="hero-image flex-1/2">
-        <img src="./assets/hero-flower.png" alt="" />
-      </div>
+      <img src="./assets/hero-flower.png" alt="" class="" />
     </section>
 
-    <main></main>
+    <main class="main">
+      <section class="plant-section">
+        <h1 class="plant-title"><span class="plant-span">Our</span> Plants</h1>
+        <p class="plant-description theme-primary-color inter-font">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+        <div class="plant-container">
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets//sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+          <div class="plant-box">
+            <img src="./assets/sample-flower-image.png" alt="" />
+            <h3 class="plant-box-title inter-font">Lily Blossiom</h3>
+            <h3 class="plant-box-description inter-font">20 USD</h3>
+            <button class="plant-box-btn inter-font">ADD TO CARD</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
   </body>
