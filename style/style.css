@@ -185,6 +185,26 @@ body {
   height: 286px;
   top: -140px;
   right: -100px;
+  filter: drop-shadow(5px 3px 3px #8987a1);
+  animation: badge 4s infinite linear;
+}
+
+@keyframes badge {
+  0% {
+    transform: scale(0) rotate(360deg);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0) rotate(-360deg);
+  }
 }
 
 /* latest section style */
@@ -300,7 +320,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 120px;
+  margin: 120px auto 0 auto;
   display: grid;
   place-content: center;
 }
