@@ -34,7 +34,7 @@
           <li>
             <a href="" class=""
               ><i class="fa-solid fa-cart-shopping"></i>
-              <span>Cart($0)</span></a
+              <span id="count-btn">Cart($0)</span></a
             >
           </li>
         </ul>
@@ -234,6 +234,20 @@
         <img src="./assets/icon-youtube.png" alt="youtube-logo" />
       </div>
     </footer>
-    <script></script>
+
+    <script>
+      const btns = document.querySelectorAll(".plant-box-btn");
+      let count = 0;
+      const countNum = document.querySelector("#count-btn");
+
+      btns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          count++;
+          let text = btn.innerText;
+          alert(`${text}-${count}`);
+          countNum.innerHTML = `Cart($${count})`;
+        });
+      });
+    </script>
   </body>
 </html>

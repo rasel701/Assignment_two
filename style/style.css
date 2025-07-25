@@ -9,6 +9,10 @@
   font-variation-settings: "wdth" 100;
 }
 
+#btnId {
+  font-size: xx-large;
+  color: red;
+}
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
