@@ -25,6 +25,8 @@ body {
   background-color: #f5f8ff;
 }
 
+/* common color */
+
 .theme-dark-color {
   color: #252432;
 }
@@ -97,8 +99,7 @@ body {
 }
 
 /* plant style */
-.main {
-}
+
 .plant-title {
   font-size: 50px;
   font-weight: bold;
@@ -124,8 +125,6 @@ body {
   text-align: center;
   gap: 30px 20px;
   justify-content: center;
-}
-.plant-box {
 }
 
 .plant-box-title {
